@@ -1,12 +1,14 @@
 .main-section{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
+    text-align: center;
 }
 
 .card{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    text-align: left;
     justify-content: space-between;
     background-color: yellow;
     height: 300px;
